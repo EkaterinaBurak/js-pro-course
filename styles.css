@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+/*Задача 5.*/
+h1 {
+    text-align: center;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 33%;
+    padding: 10px;
+    background:gold;
+}
+
+/*Задача 6.*/
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.todoList {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    background: gold;
+    border-radius: 5px;
+}
+
+/*Задача 7.*/
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.zoom {
+    width: 600px;
+    height: 600px;
+}
+
+
