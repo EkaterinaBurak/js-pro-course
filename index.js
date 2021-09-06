@@ -54,11 +54,11 @@ getDays() {
   return this.days;
 };
 
-setRate() {
+setRate(rate) {
   return this.rate = newRate;
 };
 
-setDays() {
+setDays(days) {
   return this.days = newDays;
 };
 
