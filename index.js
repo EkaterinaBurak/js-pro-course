@@ -7,12 +7,12 @@
       this.count = count;
     };
      
-    increment(count) {
+    increment() {
       count = this.count++;
       return this.count;
     };
   
-    decrement(count) {
+    decrement() {
       count = this.count--;
       return this.count;
     };
